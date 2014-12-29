@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="0089fa4f-2c6f-42ac-962c-9e63e5f99f58" ChangeDateTime="06/25/2014 15:14:09">
+    <Property Name="ElementName" Value="[dbo].[HFDServiceSession].[NewIncidents]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[HFDServiceSession]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NewCount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4efebc24-bc84-4c1b-8523-c7a628c48034" ChangeDateTime="06/25/2014 15:14:35">
+    <Property Name="ElementName" Value="[dbo].[HFDServiceSession].[NewCount]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[HFDServiceSession]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NumAdded" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="43856ae6-1a0c-4b49-bca1-552061872bd4" ChangeDateTime="06/25/2014 15:15:58">
+    <Property Name="ElementName" Value="[dbo].[HFDServiceSession].[NumAdded]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[HFDServiceSession]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ItemsAdded" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="81e2e5af-b8c0-4b59-ad14-8afae3a9d0f9" ChangeDateTime="06/25/2014 15:16:05">
+    <Property Name="ElementName" Value="[dbo].[HFDServiceSession].[NumUpdated]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[HFDServiceSession]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ItemsUpdated" />
+  </Operation>
+</Operations>
